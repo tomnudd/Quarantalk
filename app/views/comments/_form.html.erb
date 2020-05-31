@@ -1,0 +1,14 @@
+<h3>Add Comment</h3>
+<%= form_for([@post, @post.comments.build]) do |frm| %>
+    <p>
+        <%= frm.label :username %><br>
+        <%= frm.text_field(:username, {:class => 'form-control'}) %>
+    </p>
+    <p>
+        <%= frm.label :body %><br>
+        <%= frm.text_area(:body, {:class => 'form-control'}) %>
+    </p>
+    <p>
+        <%= frm.submit({:class => 'btn btn-default'}) %>
+    </p>
+<% end %>
