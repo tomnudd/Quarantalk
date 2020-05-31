@@ -29,3 +29,7 @@ body {
         padding-top: 0px;
     }
 }
+
+.card-body {
+    margin-bottom: 15px;
+}
