@@ -1,24 +1,23 @@
-# README
+# Quarantalk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Quarantalk is an app to make social distancing more fun.
 
-Things you may want to cover:
+* Ruby version: 2.7.0
+* Rails version: 6.0.3.1
 
-* Ruby version
 
-* System dependencies
+## Installation
 
-* Configuration
+* Install with `bundle install`
+* Run server with `rails s`
+* Then visit localhost:3000
 
-* Database creation
 
-* Database initialization
+## Implemented thus far
 
-* How to run the test suite
+* Post system
+* User accounts
 
-* Services (job queues, cache servers, search engines, etc.)
+## Todo
 
-* Deployment instructions
-
-* ...
+* Account-specific information
